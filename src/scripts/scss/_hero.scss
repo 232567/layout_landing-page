@@ -1,0 +1,30 @@
+.hero {
+  margin-top: 148px;
+  height: calc(100vh - 148px);
+  background: #1d1d1d;
+  background-image: linear-gradient(to top, #1d1d1d 40%, transparent),
+    url('../../scripts/images/myBike.png');
+  background-size: contain;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero__content {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 80vh;
+    background-size: cover;
+  }
+
+  .hero__title {
+    font-size: 36px;
+  }
+}

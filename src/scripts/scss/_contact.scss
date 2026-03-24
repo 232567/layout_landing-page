@@ -1,0 +1,19 @@
+.contact__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.contact__form input,
+.contact__form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: none;
+}
+
+.contact__info a:hover {
+  color: #888;
+}

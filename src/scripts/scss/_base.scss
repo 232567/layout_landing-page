@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  background: $bg-color;
+  color: $text-color;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section:not(.hero) {
+  padding: 80px 0;
+}
