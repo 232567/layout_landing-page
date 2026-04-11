@@ -1,22 +1,171 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <title>Landing Page</title>
-    <link
-      rel="stylesheet"
-      href="src/styles/main.scss"
-    />
-    <script
-      src="src/scripts/main.js"
-      defer
-    ></script>
-  </head>
-  <body>
-    <h1>Landing Page</h1>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyBike</title>
+
+  <link rel="icon" href="src/scripts/images/myBike.png">
+  <link rel="stylesheet" href="src/scripts/scss/main.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="page">
+
+<header class="header" id="top">
+  <div class="container header__wrapper">
+
+    <a href="#top" class="logo">
+      <img src="src/scripts/images/myBykeHero.png" alt="logo">
+    </a>
+
+    <div class="header__icons">
+      <a href="tel:+123456789" aria-label="Ligar">
+        <img src="src/scripts/images/phone-icon.png" alt="Ícone de telefone">
+     </a>
+
+<a href="#menu" class="menu__open" aria-label="Abrir menu">
+  <img src="src/scripts/images/menu-icon.png" alt="Ícone de menu">
+  </a>
+</div>
+
+  </div>
+</header>
+
+<div id="menu" class="menu">
+
+  <div class="menu__top">
+    <a href="#top" class="menu__close" aria-label="Fechar menu">
+      ✕
+    </a>
+  </div>
+
+  <ul class="menu__list">
+    <li><a href="#compare" class="menu__link">Compare</a></li>
+    <li><a href="#details" class="menu__link">Details</a></li>
+    <li><a href="#contact" class="menu__link">Contact</a></li>
+  </ul>
+
+</div>
+
+<section class="hero">
+  <div class="container hero__content">
+    <h1 class="hero__title">Take the Streets</h1>
+  </div>
+</section>
+
+<section class="move">
+  <div class="container move__grid">
+    <h2 class="move__title">Move Free</h2>
+
+    <p class="move__text">
+      Shift your ride, not gears. Find the fastest way to move in the city as the bike adapts intuitively to power the speed you need.
+    </p>
+  </div>
+</section>
+
+<section class="compare" id="compare">
+  <div class="container">
+    <h2 class="section-title">Compare Bikes</h2>
+
+    <div class="compare__grid">
+
+      <div class="bike">
+        <img src="src/scripts/images/Sporty4.png" alt="Sporty4">
+        <h3>The iconic frame brought to a new performance height as a sporty, active ride.</h3>
+        <p class="bike__price">$ 2 590</p>
+      </div>
+
+      <div class="bike">
+        <img src="src/scripts/images/Ride-in-town-ST.png" alt="Ride in town ST">
+        <h3>An open frame for an upright riding position as the most comfortable ride in town.</h3>
+        <p class="bike__price">$ 2 590</p>
+      </div>
+
+      <div class="bike">
+        <img src="src/scripts/images/Agile-ride-3.png" alt="Agile ride 3">
+        <h3>The lightweight frame that has earned its street tread as a sleek, agile ride.</h3>
+        <p class="bike__price">$ 2 590</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="details" class="details">
+  <div class="container">
+
+    <h2 class="section-title">The Details</h2>
+
+    <div class="details__grid">
+
+      <div class="details__item">
+        <h3>Auto Unlock</h3>
+        <p>The app senses when you're nearby to unlock automatically.</p>
+      </div>
+
+      <div class="details__item">
+        <h3>Range & Lights</h3>
+        <p>Up to 70km autonomy with integrated frame lights.</p>
+      </div>
+
+      <div class="details__item">
+        <h3>Hydraulic Brakes</h3>
+        <p>Safe and responsive braking system.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="the-details">
+  <img src="src/scripts/images/The-Details.png" alt="Bike view">
+</section>
+
+<section class="contact" id="contact">
+  <div class="container contact__grid">
+
+    <form class="contact__form">
+      <input type="text" placeholder="John Doe" required>
+      <input type="email" placeholder="example@email.com" required>
+      <textarea placeholder="Your message" required></textarea>
+
+      <button class="button">Send</button>
+    </form>
+
+    <div class="contact__info">
+
+      <p>
+        📞 <a href="tel:+123456789">+1 234 567 890</a>
+      </p>
+
+      <p>
+        ✉ <a href="mailto:hello@email.com">hello@email.com</a>
+      </p>
+
+      <p>
+        📍 <a href="https://maps.google.com" target="_blank">Miami</a>
+      </p>
+
+    </div>
+
+</section>
+
+<footer class="footer">
+  <div class="container">
+
+    <a href="#top">
+      <img src="src/scripts/images/Screenshot.png" alt="Screenshot">
+    </a>
+
+    <p>© 2026 MyBike</p>
+
+  </div>
+</footer>
+
+</body>
 </html>
+
