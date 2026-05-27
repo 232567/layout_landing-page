@@ -1,0 +1,12 @@
+@use '../utils/variables' as *;
+
+body {
+  font-family: Poppins, sans-serif;
+  color: $dark;
+  background: $light;
+  overflow-x: hidden;
+}
+
+.page {
+  background: #1d1d1d;
+}
