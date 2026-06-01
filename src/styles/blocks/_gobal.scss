@@ -1,5 +1,9 @@
 @use '../utils/variables' as *;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Poppins, sans-serif;
   color: $dark;
